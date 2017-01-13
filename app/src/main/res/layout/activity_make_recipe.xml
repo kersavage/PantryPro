@@ -35,7 +35,7 @@
         android:id="@+id/button2"
         android:onClick="goToAddItemRecipe"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="425dp"/>
+        android:layout_marginTop="450dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -51,17 +51,5 @@
         android:id="@+id/listView2"
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="200dp" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Recipe Name"
-        android:ems="10"
-        android:id="@+id/editText10"
-        android:layout_above="@+id/button3"
-        android:layout_toRightOf="@+id/back"
-        android:layout_toEndOf="@+id/back" />
-
+        android:layout_marginBottom="150dp" />
 </RelativeLayout>
